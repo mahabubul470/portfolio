@@ -5,7 +5,8 @@ export enum Platform {
 	Linkedin = 'linkedin',
 	Email = 'email',
 	Facebook = 'facebook',
-	Youtube = 'youtube'
+	Youtube = 'youtube',
+	Pranisheba = 'pranisheba'
 }
 
 export enum ContractType {

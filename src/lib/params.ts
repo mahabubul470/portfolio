@@ -12,7 +12,7 @@ import {
 } from './types';
 import { Icons } from './utils';
 
-export const TITLE_SUFFIX = 'Slick template with Svelte';
+export const TITLE_SUFFIX = "Mahabubul's Portfolio";
 
 export const NavBar = {
 	home: 'Home',
@@ -39,6 +39,7 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 		case Platform.Youtube:
 			return Icons.Youtube;
 	}
+	return Icons.GitHub;
 };
 
 export const HOME: HomePageParams = {
@@ -48,14 +49,10 @@ export const HOME: HomePageParams = {
 	description:
 		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/mahabubul470' },
 		{
 			platform: Platform.Linkedin,
 			link: 'https://www.linkedin.com/'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
 		},
 		{
 			platform: Platform.StackOverflow,
@@ -63,16 +60,8 @@ export const HOME: HomePageParams = {
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'mahabubul470@gmail.com'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
-		}
 	]
 };
 
