@@ -2,16 +2,23 @@
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
 	import { RESUME } from '$lib/params';
-	import PdfViewer from 'svelte-pdf';
+
 	const { item, title } = RESUME;
+  	import { onMount } from "svelte";
+
+	let PdfViewer;
+
+	onMount(async () => {
+		const module = await import("svelte-pdf");
+		PdfViewer = module.default;
+	});
+
 </script>
 
 <CommonPage {title}>
 	<div class="resume">
-		<PdfViewer url="https://raw.githubusercontent.com/mahabubul470/portfolio/master/resume.pdf" />
+		<svelte:component this={PdfViewer} url="//raw.githubusercontent.com/mahabubul470/portfolio/master/resume.pdf"/>
 	</div>
-
-	
 </CommonPage>
 
 <style lang="scss">
@@ -25,3 +32,4 @@
 		}
 	}
 </style>
+
