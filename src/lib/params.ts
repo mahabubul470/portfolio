@@ -44,19 +44,21 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'MAHABUBUL',
+	lastName: 'HASAN',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		`I am a Software Engineer with a Bachelor's degree in Computer Science and Engineering. My professional
+		experience primarily involves leveraging modern technologies to create scalable back-end solutions. I am
+		enthusiastic about tackling exciting challenges and solving complex software engineering problems.`,
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/mahabubul470' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
+			link: 'https://www.linkedin.com/in/mahabubul470/'
 		},
 		{
 			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://stackoverflow.com/users/19465483/mahabubul-hasan'
 		},
 		{
 			platform: Platform.Email,
