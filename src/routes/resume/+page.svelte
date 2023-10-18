@@ -7,20 +7,11 @@
 </script>
 
 <CommonPage {title}>
-	<!-- <div class="resume">
-		{#if item}
-			<a href={item}>
-				<Chip size={'1.25em'}>Download</Chip>
-			</a>
-		{:else}
-			<Chip>Ooops! no CV at the moment.</Chip>
-		{/if}
-	</div> -->
+	<div class="resume">
+		<PdfViewer url="https://raw.githubusercontent.com/mahabubul470/portfolio/master/resume.pdf" />
+	</div>
 
-	<PdfViewer url="https://raw.githubusercontent.com/mahabubul470/portfolio/master/resume.pdf" />
-
-
-
+	
 </CommonPage>
 
 <style lang="scss">
