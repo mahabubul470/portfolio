@@ -17,7 +17,7 @@ const config = {
 	kit: {
 		adapter: adapter({ fallback: '404.html' }),
         paths: {
-            base: '/',
+            base: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
         }
 	}
 };
