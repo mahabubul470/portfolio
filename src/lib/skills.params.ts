@@ -16,6 +16,41 @@ const MY_SKILLS = [
 		name: 'Python'
 	}),
 	s({
+		slug: 'django',
+		color: 'white',
+		description: 'Django is a Python-based free and open-source web framework that follows the model–template–views architectural pattern.',
+		logo: Assets.Django,
+		name: 'Django'
+	}),
+	s({
+		slug: 'docker',
+		color: 'blue',
+		description: 'Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.',
+		logo: Assets.Docker,
+		name: 'Docker'
+	}),
+	s({
+		slug: 'mysql',
+		color: 'blue',
+		description: 'MySQL is an open-source relational database management system.',
+		logo: Assets.MySQL,
+		name: 'MySQL'
+	}),
+	s({
+		slug: 'redis',
+		color: 'red',
+		description: 'Redis is an in-memory data structure project implementing a distributed, in-memory key-value database with optional durability.',
+		logo: Assets.Redis,
+		name: 'Redis'
+	}),
+	s({
+		slug: 'celery',
+		color: 'blue',
+		description: 'Celery is an open source asynchronous task queue or job queue which is based on distributed message passing.',
+		logo: Assets.Celery,
+		name: 'Celery'
+	}),
+	s({
 		slug: 'c#',
 		color: 'blue',
 		description: 'C# is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.',
@@ -23,35 +58,14 @@ const MY_SKILLS = [
 		name: 'C#'
 	}),
 	s({
-		slug: 'js',
-		color: 'yellow',
+		slug: 'typescript',
+		color: 'orange',
 		description:
-			'JavaScript is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is complimentary to and integrated with Java',
-		logo: Assets.JavaScript,
-		name: 'Javascript'
-	}),
-	s({
-		slug: 'ts',
-		color: 'blue',
-		description:
-			'TypeScript is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions.',
+			'TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.',
 		logo: Assets.TypeScript,
 		name: 'Typescript'
 	}),
-	s({
-		slug: 'django',
-		color: 'green',
-		description: 'Django is a Python-based free and open-source web framework that follows the model–template–views architectural pattern.',
-		logo: Assets.Django,
-		name: 'Django'
-	}),
-	s({
-		slug: 'fastapi',
-		color: 'green',
-		description: 'FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.',
-		logo: Assets.FastApi,
-		name: 'FastAPI'
-	}),
+
 ];
 
 export default MY_SKILLS;
