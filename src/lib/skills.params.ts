@@ -30,11 +30,11 @@ const MY_SKILLS = [
 		name: 'Docker'
 	}),
 	s({
-		slug: 'mysql',
+		slug: 'postgresql',
 		color: 'blue',
-		description: 'MySQL is an open-source relational database management system.',
-		logo: Assets.MySQL,
-		name: 'MySQL'
+		description: 'PostgreSQL is a free and open-source relational database management system emphasizing extensibility and SQL compliance.',
+		logo: Assets.PostgreSQL,
+		name: 'PostgreSQL'
 	}),
 	s({
 		slug: 'redis',
